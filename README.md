@@ -1,0 +1,5 @@
+train_student.py为直接在数据集上训练学生网络代码
+kd_mid.py为使用中间层的知识蒸馏训练学生网络代码
+SSKD_train_teacher_Peclr.py和SSKD_train_teacher_SSKD_ch.py分别为使用不同损失训练教师网络自监督模块的代码
+SSKD_train_student.py为SSKD训练方法中第二步使用组合损失训练学生网络代码
+datasets文件夹中为数据的读取（包括数据增强操作）
